@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div id="theme-button">
+            <i class="fa-solid fa-adjust fa-xs"></i>
+        </div>
+    </header>
+    <div id="nav-bar">
+        <div class="sections active-section" data-hover="About" data-section-id="about">
+            <i class="fa-solid fa-house fa-xs"></i>
+        </div>
+        <div class="sections" data-hover="Projects" data-section-id="projects">
+            <i class="fa-solid fa-code fa-xs"></i>
+        </div>
+        <div class="sections" data-hover="Contact" data-section-id="contact">
+            <i class="fa-solid fa-phone fa-xs"></i>
+        </div>
+    </div>
+    <div class="main-content">
+        <div id="about-section">
+            <img src="images/user.png" alt="Profile image" id="profile-image">
+    <section id="about">
+        <div id="intro">Hi, I'm Yeshraj B</div>
+        <div class='console-container'><span id='typing-text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+        <div class="desc-1">I am a passionate software developer from Indore, India.</div>
+        <div class="desc-2">I love to <em><i class="fa-solid fa-code"></i> code <i class="fa-solid fa-code"></i> </em> and turn ideas into reality. </div>
+    </section>
+    </div>
+    <div class="project-section">
+    <section id="projects">
+        <div class="prj-title">
+            <h2>Projects</h2>
+            <div>These are some of my recent projects</div>
+        </div>
+        <div class="projects-list">
+            <div class="project-container">
+                <div class="project-name">Chatterbox</div>
+                <div class="project-desc">A chat application.</div>
+                <a href="https://github.com/Vedant0734/test_app" target="_blank" class="project-link">Github</a>
+        </div>
+        <div class="project-container">
+            <div class="project-name">BGI Test</div>
+            <div class="project-desc">A quiz application</div>
+            <a href="https://github.com/YeshrajB/chatterbox" target="_blank" class="project-link">Github</a>
+        </div>
+    </div>
+    </div>
+    <div class="contact-section">
+            <h2>Contact Me</h2>
+            Let's get in touch
+            <section id="contact">
+                <div class="contact-info">
+                <div>
+                    <span> <i class="fa-solid fa-phone fa-xs" style="padding-right: 8px;"></i>Phone No.</span>
+                    <span>+91 79748 64605</span>
+                </div>
+                <div>
+                    <span> <i class="fa-solid fa-envelope fa-xs" style="padding-right: 9px;"></i>Email</span>
+                    <span>yashrajbhadoriya.2002@gmail.com</span>
+                </div>
+            </div>    
+            <div class="profile-links">
+                <a href="https://github.com/YeshrajB" target="_blank">
+                    <span> <i class="fa-brands fa-github" style="padding-right: 9px;"></i>Github</span>
+                </a>
+                <a href="https://www.linkedin.com/in/yeshraj-b-158088247/" target="_blank">
+                    <span> <i class="fa-brands fa-linkedin" style="padding-right: 9px;"></i>LinkedIn</span>
+                </a>
+            </div>
+        </section> 
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
